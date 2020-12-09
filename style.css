@@ -9,27 +9,72 @@ color: rgb(0, 31, 31);
 background: #1c92d2;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .card {
-  padding: 16px;
+  padding: 30px;
   border: 4px solid rgba(241, 252, 255, 0.932);
   box-shadow: 10px 7px #1973a375;
   border-radius: 6px;
 }
 
 .dark {
-  background: black;
-  color: azure; 
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: azure; 
 }
 
 .dark > .card > a {
   color: azure;
 }
 .socials {
-  padding: 16px
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+.socials ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.socials ul li{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  background: #1973a375;
+  border-radius: 70%;
+  margin: 5px 10px;
+}
+.socials ul li a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #fff;
+  text-align: center; 
+  color: #fff;
+  font-size: 30px;
+}
+.socials ul li a i{
+  line-height: 100px;
+}
+.socials ul li:nth-child(1){
+  background:#55acee ;
+}
+.socials ul li:nth-child(2){
+  background: #0077B5 ;
+}
+.socials ul li:nth-child(3){
+  background: #dd4b39 ;
+}
+.socials ul li:hover{
+  background: #1973a375;
+}
+
 Img{
   height: 150px;
   border-radius: 20%
