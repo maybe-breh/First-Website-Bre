@@ -41,7 +41,9 @@ color: azure;
   text-align: center;
 }
 .socials ul li{
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  flex-flow: column;
   width: 70px;
   height: 70px;
   text-align: center;
@@ -51,9 +53,7 @@ color: azure;
 }
 .socials ul li a{
   text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
   color: #fff;
   text-align: center; 
   color: #fff;
