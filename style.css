@@ -1,0 +1,49 @@
+body {
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align:center;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+color: rgb(0, 31, 31);
+background: background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card {
+  padding: 16px;
+  border: 4px solid rgba(241, 252, 255, 0.932);
+  box-shadow: 10px 7px #1973a375;
+  border-radius: 6px;
+}
+
+.dark >a {
+background: black;
+color: white; 
+
+}
+.dark > .card > a {
+  color: azure;
+}
+.socials {
+  padding: 16px
+}
+Img{
+  height: 150px;
+  border-radius: 20%
+}
+
+a{
+  color:  rgb(0, 31, 31);
+
+}
+
+.form {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
